@@ -1,0 +1,24 @@
+#mainContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.dataClass {
+    border: 2px solid tomato;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn_reload {
+    border: 2px solid tomato;
+    color: rgb(255, 72, 40);
+    padding: 8px 12px;
+    margin: 20px;
+}
+
+#specificDataShow {
+    background-color: rgb(231, 234, 236);
+    padding: 10px;
+    padding-left: 37%;
+}
